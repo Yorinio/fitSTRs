@@ -1,0 +1,13 @@
+<div class="content">
+    <div class="indexheader">
+      <h3 style="font-weight:100;">Keep track of your <span style="color: rgb(236, 74, 10); font-weight:500;">workouts</span> and <span style="color: rgb(10, 236, 123); font-weight:500;">nutrition</span>, and learn <span style="color: rgb(10, 127, 236); font-weight:500;">new things</span>. </h3>
+    </div>
+
+    <div class="quicknav">
+      <p><b><center>Quicknav</center> </b></p>
+      <a href="tools.html">Tools</a> <br>
+      <a href="workouts.html">Workouts</a> <br>
+      <a href="nutrition.html">Nutrition</a> <br>
+
+    </div>
+  </div>

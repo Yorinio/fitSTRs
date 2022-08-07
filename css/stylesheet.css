@@ -1,8 +1,23 @@
-/* Add a black background color to the top navigation */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 * {
   margin:0;
   color:white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+input[type="text"] {
+  -webkit-appearance : none;
+  border-radius      : 0;
+}
+
+button {
+  -webkit-appearance : none;
+
 }
 
 body {
@@ -11,16 +26,58 @@ body {
 
 .header {
   justify-content: center;
-  display:flex;
-  height:50px;
+  height:130px;
   background-color:#111111;
-  padding-top:3px;
+  letter-spacing:15px;
+  padding-top:110px;
+  text-align:center;
+}
+
+.header p {
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+.subheader {
+  text-align:center;
+  padding-top:40px;
+  width:100%;
+  position: relative;
+}
+
+.expandable {
+  background-color:#232323;
+  width:70%;
+  margin:10%;
+  text-align:left;
+  padding:5%;
+}
+
+input {
+  background-color:#141414;
+  color:white;
+  border:0px;
+  margin-top:10px;
+  padding:10px;
+  width:93%;
+}
+
+
+button {
+  background-color:#141414;
+  color:white;
+  border:0px;
+  margin-top:10px;
+  padding:10px;
+  width:100%;
+}
+.expandable p {
+  margin-top:10px;
 }
 
 .content {
   padding:30px;
   padding-top:80px;
-  box-shadow: rgba(255, 0, 0, 0.562) 0px 30px 60px -12px inset, rgba(0, 7, 8, 0.822) 0px 18px 36px -18px inset;
   height:10vw;
 }
 
