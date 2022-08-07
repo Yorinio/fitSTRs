@@ -1,5 +1,4 @@
-fitstrs is being developed to help people reach their dream physique. It will be free to use.
-It will start as a mobile web based app.
+fitstrs is being developed to help people reach their dream physique. It will be free and is intended to be used in a phone's browser, while feeling like an app.
 
 Changelog
 07/08/2022
